@@ -19,7 +19,7 @@ namespace WCF_Service
         public decimal BMI(decimal height, decimal weight)
         {
             Console.WriteLine("Mottaget");
-            return weight/(height*height);
+            return weight / ((height / 100)* (height / 100));
         }
     }
 }
