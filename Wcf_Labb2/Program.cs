@@ -21,8 +21,7 @@ namespace Wcf_Labb2
                     selfServiceHost.AddServiceEndpoint(
                         typeof(IBMI), //c
                         new WSHttpBinding(), // b
-                        "BmiService" //a
-                        );
+                        "BmiService"); // a
                     ServiceMetadataBehavior smb = new ServiceMetadataBehavior();
                     smb.HttpGetEnabled = true;
 

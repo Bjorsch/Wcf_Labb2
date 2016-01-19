@@ -16,14 +16,14 @@ namespace WCF_Service_Day
     }
     
 
-    class DayService : IDays
+     public class DayService : IDays
     {
         public double Day(int year, int month, int day)
         {
             Console.WriteLine("Mottaget");
-            var today = new DateTime();
+            var today = DateTime.Now;
             var birthday = new DateTime(year,month,day);
-            var calc = (today - birthday).TotalDays;
+            var calc = (today.Date - birthday.Date).TotalDays;
             return calc;
         }
     }
