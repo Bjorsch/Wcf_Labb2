@@ -16,7 +16,6 @@ namespace Wcf_Labb2
             Uri baseAddress = new Uri("http://localhost:8080/WCF_Service");
             using (ServiceHost selfServiceHost = new ServiceHost(typeof(BmiService), baseAddress))
             {
-
                 try
                 {
                     selfServiceHost.AddServiceEndpoint(
@@ -34,10 +33,6 @@ namespace Wcf_Labb2
 
                     Console.WriteLine("Tryck på ENTER för att stänga tjänsten");
                     Console.ReadLine();
-
-
-
-
                 }
                 catch (CommunicationException exception)
                 {
@@ -46,8 +41,7 @@ namespace Wcf_Labb2
                     Console.ReadLine();
 
                 }
-            }
-                      
+            }                      
         }
     }
 }
