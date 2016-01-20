@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Service_Day", "WCF_Serv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Labb2.Day", "WCF.Labb2.Day\WCF.Labb2.Day.csproj", "{9D3E87DD-4373-44FE-B199-6845788ECA83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Service_1000", "WCF_Service_1000\WCF_Service_1000.csproj", "{3C5AD742-4655-4A55-B1D3-10AC45BE243F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF.Labb2.1000", "WCF.Labb2.1000\WCF.Labb2.1000.csproj", "{ECC0EFDB-E838-41C8-A81C-D1431BEAC129}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{9D3E87DD-4373-44FE-B199-6845788ECA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D3E87DD-4373-44FE-B199-6845788ECA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D3E87DD-4373-44FE-B199-6845788ECA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5AD742-4655-4A55-B1D3-10AC45BE243F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5AD742-4655-4A55-B1D3-10AC45BE243F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5AD742-4655-4A55-B1D3-10AC45BE243F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5AD742-4655-4A55-B1D3-10AC45BE243F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC0EFDB-E838-41C8-A81C-D1431BEAC129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC0EFDB-E838-41C8-A81C-D1431BEAC129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC0EFDB-E838-41C8-A81C-D1431BEAC129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC0EFDB-E838-41C8-A81C-D1431BEAC129}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
